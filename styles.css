@@ -52,3 +52,29 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery figure {
+    flex: 1 1 calc(33% - 1rem);
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
