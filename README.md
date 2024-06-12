@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet consiste en un site web de présentation pour une association humanitaire. Il comprend plusieurs pages décrivant les différentes facettes de l'association, telles que sa présentation, ses actions, les choix de l'association, l'apport personnel des membres, le feedback des bénéficiaires et une galerie de photos illustrant les actions menées.
+Ce projet consiste en un site web de présentation pour mes actions humanitaires avec l'association BienHêtre lors de mopn M1 (IAS-DS). Il comprend plusieurs pages décrivant les différentes facettes de l'association, telles que sa présentation, ses actions, mais également mon choix de l'association, l'apport personnel des membres, le feedback des bénéficiaires et une galerie de photos illustrant les actions menées.
 
 ## Structure du Site Web
 
@@ -17,24 +17,6 @@ Ce projet consiste en un site web de présentation pour une association humanita
 7. **galerie.html** : Galerie de photos
 8. **styles.css** : Feuille de style commune
 
-## Prérequis
-
-Pour visualiser ce site web, vous aurez besoin d'un navigateur web moderne comme Google Chrome, Mozilla Firefox, Safari, ou Microsoft Edge.
-
-## Installation
-
-1. **Clonez le dépôt** :
-    ```sh
-    git clone https://github.com/votre-utilisateur/projet-humanitaire.git
-    ```
-
-2. **Accédez au répertoire du projet** :
-    ```sh
-    cd projet-humanitaire
-    ```
-
-3. **Ouvrez le fichier `index.html` dans votre navigateur** :
-    - Vous pouvez simplement double-cliquer sur le fichier `index.html` ou ouvrir votre navigateur et utiliser `File > Open File` pour sélectionner `index.html`.
 
 ## Structure des Fichiers
 
@@ -48,35 +30,10 @@ Pour visualiser ce site web, vous aurez besoin d'un navigateur web moderne comme
 - `styles.css` : La feuille de style commune pour le site web.
 - `images/` : Dossier contenant les images utilisées dans la galerie.
 
-## Contribuer
-
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, veuillez suivre les étapes suivantes :
-
-1. **Fork le dépôt**
-2. **Créez une branche pour votre fonctionnalité** :
-    ```sh
-    git checkout -b ma-nouvelle-fonctionnalite
-    ```
-
-3. **Commit vos changements** :
-    ```sh
-    git commit -m 'Ajout de ma nouvelle fonctionnalité'
-    ```
-
-4. **Push vers la branche** :
-    ```sh
-    git push origin ma-nouvelle-fonctionnalite
-    ```
-
-5. **Ouvrez une Pull Request**
-
-## Licence
-
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Contact
 
-Pour toute question ou suggestion, veuillez contacter [votre-nom](mailto:votre-email@example.com).
+Pour toute question ou suggestion, veuillez me contacter sur mon adresse [mail](mailto:nora.badaoui.edu@groupe-gema.com).
 
 ---
 
