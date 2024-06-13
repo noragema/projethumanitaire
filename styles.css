@@ -9,8 +9,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #121212; 
-    color: #e0e0e0; 
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
@@ -33,14 +33,13 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    display: inline-block; 
-    transition: transform 0.3s ease; 
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 header nav ul li a:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
-
 
 main {
     padding: 2rem;
@@ -50,7 +49,9 @@ main section {
     margin-bottom: 2rem;
 }
 
-main section h2, main section h3, .section-title {
+main section h2,
+main section h3,
+.section-title {
     background-color: #121212;
     color: #fff;
     padding: 0.5rem;
@@ -72,47 +73,46 @@ footer {
 }
 
 .content {
-    flex: 1; 
-    margin-right: 2rem; 
+    flex: 1;
+    margin-right: 2rem;
 }
 
 .map {
-    flex: 1; 
+    flex: 1;
 }
 
 .organization p {
-    margin: 0.5rem 0 1rem 0; 
-    line-height: 1.5; 
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.5;
 }
-
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     justify-content: center;
+    gap: 1rem;
 }
 
 .gallery figure {
-    flex: 1 1 calc(25% - 1rem); 
-    max-width: 25%; 
+    flex: 1 1 calc(25% - 1rem);
+    max-width: 25%;
     box-sizing: border-box;
     margin: 0;
     background: #222;
     border: 1px solid;
     padding: 0.5rem;
-    position: relative; 
+    position: relative;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .gallery figure:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 .gallery img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -122,48 +122,54 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
     padding: 0.5rem;
     font-size: 0.9rem;
-    opacity: 0; 
-    transition: opacity 0.3s ease; 
-    transform: translateY(100%); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: translateY(100%);
 }
 
 .gallery figure:hover figcaption {
-    opacity: 1; 
-    transform: translateY(0); 
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.activities-carousel {
+    max-width: 80%;
+    margin: auto;
 }
 
 .activities-carousel .carousel-item img {
-    max-width: 80%;
+    width: 100%;
     height: auto;
+    display: block;
 }
 
 .activities-carousel .carousel-item {
-    text-align: center; 
+    text-align: center;
 }
 
 .activities-carousel .image-container {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.2); /* Couleur du fond noir avec transparence */
+    background-color: rgba(0, 0, 0, 0.2);
     display: inline-block;
 }
 
 .activities-carousel .image-container img {
-    max-width: 80%;
+    width: 100%;
     height: auto;
     display: block;
 }
 
 .activities-carousel .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); 
-    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 80%;
+    width: 100%;
     padding: 10px;
 }
