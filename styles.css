@@ -27,6 +27,8 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    display: inline-block; 
+    transition: transform 0.3s ease; 
 }
 
 header nav ul li a:hover {
@@ -43,13 +45,13 @@ main section {
 }
 
 main section h2, main section h3 {
-    background-color: #333;
+    background-color: #121212;
     color: #fff;
     padding: 0.5rem;
 }
 
 footer {
-    background: #333;
+    background: #121212;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -70,8 +72,8 @@ footer {
     max-width: 25%; 
     box-sizing: border-box;
     margin: 0;
-    background: #fff;
-    border: 1px solid #ccc;
+    background: #222;
+    border: 1px solid #444;
     padding: 0.5rem;
     position: relative; 
     overflow: hidden;
