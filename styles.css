@@ -50,7 +50,7 @@ main section {
     margin-bottom: 2rem;
 }
 
-main section h2, main section h3 {
+main section h2, main section h3, .section-title {
     background-color: #121212;
     color: #fff;
     padding: 0.5rem;
