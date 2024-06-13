@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -134,4 +140,30 @@ footer {
 .activities-carousel .carousel-item img {
     max-width: 100%;
     height: auto;
+}
+
+.activities-carousel .carousel-item {
+    text-align: center; /* Centrer les images */
+}
+
+.activities-carousel .image-container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2); /* Couleur du fond noir avec transparence */
+    display: inline-block;
+}
+
+.activities-carousel .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.activities-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond pour la légende */
+    color: #fff; /* Couleur du texte pour la légende */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
