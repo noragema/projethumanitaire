@@ -229,9 +229,13 @@ nav ul li a {
 .submenu {
     display: none; /* Caché par défaut */
     position: absolute;
+    top: 100%; /* Position en-dessous de l'élément parent */
+    left: 0; /* Aligné avec l'élément parent */
     background-color: #333; /* Couleur de fond du sous-menu */
     padding: 0.5rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 150px; /* Largeur minimale du sous-menu */
+    z-index: 1; /* Assure que le sous-menu est au-dessus des autres éléments */
 }
 
 nav ul li:hover .submenu {
