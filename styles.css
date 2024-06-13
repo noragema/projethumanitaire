@@ -74,13 +74,6 @@ footer {
     flex: 1; 
 }
 
-.organization h2, .organization h3 {
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem;
-    margin-top: 0;
-}
-
 .organization p {
     margin: 0.5rem 0 1rem 0; 
     line-height: 1.5; 
