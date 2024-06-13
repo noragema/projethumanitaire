@@ -37,4 +37,4 @@ Pour toute question ou suggestion, veuillez me contacter sur mon adresse [mail](
 
 ---
 
-&copy; 2024 Association XYZ. Tous droits réservés.
+&copy; 2024 Projet Humanitaire. Tous droits réservés.
