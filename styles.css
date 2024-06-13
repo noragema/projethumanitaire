@@ -78,7 +78,7 @@ footer {
 }
 
 .map {
-    flex: 2;
+    flex: auto;
 }
 
 .organization p {
