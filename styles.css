@@ -14,7 +14,9 @@ body.presentation-body {
     color: #e0e0e0;
 }
 
-header {
+header,
+header.presentation-header
+{
     background: #121212;
     color: #fff;
     padding: 1rem 0;
