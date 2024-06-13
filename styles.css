@@ -77,8 +77,12 @@ footer {
     margin-right: 2rem;
 }
 
+.section-title p {
+    flex: 3
+}
+
 .map {
-    flex: auto;
+    flex: 1;
 }
 
 .organization p {
