@@ -81,11 +81,11 @@ footer {
 }
 
 .section-title p {
-    flex: 6
+    flex: 7;
 }
 
 .map {
-    flex: 1;
+    flex: 2;
 }
 
 .organization p {
