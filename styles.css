@@ -5,6 +5,8 @@
 }
 
 body {
+    font-size: 16px; 
+    line-height: 1.6;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -224,4 +226,14 @@ footer {
     float: right; 
     margin-left: 20px; 
     max-width: 900px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2em; /* Taille des titres (par exemple) */
+    /* Vous pouvez ajuster la taille des titres en fonction de vos besoins */
+}
+
+p {
+    font-size: 1.1em; /* Taille du texte normal */
+    margin-bottom: 1em; /* Espacement sous les paragraphes */
 }
