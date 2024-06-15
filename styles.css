@@ -221,7 +221,7 @@ footer {
 }
 
 .association-logo {
-    float: right; /* Permet de placer l'image à droite du texte */
-    margin-left: 20px; /* Ajoute un espace entre le texte et le logo */
-    max-width: 200px; /* Ajuste la largeur maximale du logo */
+    float: right; 
+    margin-left: 20px; 
+    max-width: 900px; 
 }
