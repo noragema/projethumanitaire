@@ -247,6 +247,6 @@ a, .presentation-body a {
     transition: color 0.3s ease; 
 }
 
-a:hover, .presentation-body a {
+a:hover, .presentation-body a:hover {
     color: lightslategrey; 
 }
