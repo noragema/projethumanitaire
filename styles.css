@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3em; 
 }
 
-p {
+p, .presentation-body p {
     font-size: 1.5em; 
     margin-bottom: 1em; /
 }
@@ -241,12 +241,12 @@ li{
     font-size: 1.1em; 
 }
 
-a {
+a, .presentation-body a {
     color: lightgrey; 
     text-decoration: none; 
     transition: color 0.3s ease; 
 }
 
-a:hover {
+a:hover, .presentation-body a {
     color: lightslategrey; 
 }
