@@ -252,6 +252,7 @@ a:hover, .presentation-body a:hover {
     text-decoration: none; 
 }
 
-img {
-    max-width: 900px;
+img.top {
+    max-width: 400px;
 }
+
