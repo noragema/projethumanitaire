@@ -251,3 +251,7 @@ a:hover, .presentation-body a:hover {
     color: lightslategrey;
     text-decoration: none; 
 }
+
+img {
+    max-width: 900;
+}
